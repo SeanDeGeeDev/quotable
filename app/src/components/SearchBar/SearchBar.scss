@@ -1,0 +1,25 @@
+.search-bar {
+  max-width: 40rem;
+  padding: 0.5rem 1rem;
+
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+
+  background-color: var(--color-background-input);
+  border-radius: 0.5rem;
+
+  &__input {
+    width: 100%;
+
+    background: none;
+    border: none;
+    caret-color: var(--color-accent);
+    color: var(--color-font-normal);
+    outline: none;
+
+    &::placeholder {
+      color: var(--color-font-muted);
+    }
+  }
+}

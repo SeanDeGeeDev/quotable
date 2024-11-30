@@ -1,0 +1,15 @@
+.quote-list {
+  display: flex;
+  justify-content: center;
+  overflow-y: auto;
+
+  &__list-container {
+    max-width: 768px;
+    width: 100%;
+
+    align-content: start;
+    align-items: start;
+    display: grid;
+    gap: 1rem;
+  }
+}

@@ -1,0 +1,12 @@
+.app-header {
+  margin-bottom: 2rem;
+
+  align-items: center;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: auto 1fr auto;
+
+  &__logo {
+    height: 2.5rem;
+  }
+}
